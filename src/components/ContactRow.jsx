@@ -1,4 +1,4 @@
-export default function ContactRow({ contact }) {
+const ContactRow = ({ contact }) => {
   return (
     <tr>
       <td>{contact.name}</td>
@@ -7,3 +7,5 @@ export default function ContactRow({ contact }) {
     </tr>
   );
 }
+
+export default ContactRow;
